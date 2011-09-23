@@ -1,0 +1,6 @@
+require 'fix-lame-id3-generated-by-k3b'
+
+include FixLameId3GeneratedByK3b
+puts "Fixing mp3... version: #{VERSION}"
+fix *ARGV
+
